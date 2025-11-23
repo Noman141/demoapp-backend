@@ -1,0 +1,15 @@
+{
+  "name": "demoapp-backend",
+  "version": "1.0.0",
+  "description": "Simple demo backend for mobile app using Node.js and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
