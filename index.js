@@ -59,6 +59,7 @@ app.post('/users', async (req, res) => {
 });
 
 const port = process.env.APP_PORT || 3000;
-app.listen(port, () => {
+
+app.listen(port, '0.0.0.0', () => {
   console.log(`Demo backend listening on port ${port}`);
 });
